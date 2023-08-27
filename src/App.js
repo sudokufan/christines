@@ -1,3 +1,4 @@
+import Footer from "./footer/footer";
 import Header from "./header/header";
 import TextSlice from "./textSlice/textSlice";
 
@@ -21,6 +22,7 @@ function App() {
           </>
         }
       />
+      <Footer />
     </div>
   );
 }

@@ -3,15 +3,16 @@
 }
 
 .footer {
-  background-color: #2b653c;
+  background-color: #661a17;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   color: #fbeb97;
   text-align: center;
-}
-
-.text {
-  padding: 60px 0px 60px 0px;
-  width: 40%;
   font-size: 1.5rem;
+  flex-direction: row;
+  padding: 0 20% 0 20%;
+
+  .footerContent {
+    margin: 80px 0 80px 0;
+  }
 }

@@ -1,11 +1,11 @@
 import "./footer.css";
 
-function Footer(props) {
+function Footer() {
   return (
     <footer className="footer">
-      <div></div>
-      <div></div>
-      <div></div>
+      <div className="footerContent">a</div>
+      <div className="footerContent">b</div>
+      <div className="footerContent">c</div>
     </footer>
   );
 }
