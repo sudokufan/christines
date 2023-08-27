@@ -4,7 +4,10 @@ import "./Header.css";
 function Header() {
   return (
     <header className="header">
-      <h1 className="shopName">Christine's Sustainable Supermarket</h1>
+      <div className="shopName">
+        <h1 className="shopTitle">Christine's</h1>
+        <h2 className="shopSubtitle">Sustainable Supermarket</h2>
+      </div>
     </header>
   );
 }

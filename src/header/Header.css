@@ -8,12 +8,22 @@
   background-color: #fbeb97;
   display: flex;
   color: #000000;
-  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 
   .shopName {
-    padding: 30px;
+    padding: 3rem;
+  }
+
+  .shopTitle {
     font-family: "Titan One", sans-serif;
-    font-size: 3rem;
+    font-size: 4rem;
+    margin: 0;
+  }
+
+  .shopSubtitle {
+    margin: 0;
+    font-size: 2rem;
   }
 
   .shopName:hover {
