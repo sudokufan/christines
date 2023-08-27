@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Titan+One");
+
 * {
   box-sizing: border-box;
 }
@@ -14,5 +16,46 @@
 
   .footerContent {
     margin: 80px 0 80px 0;
+  }
+
+  .openingHours {
+    .hoursTitle {
+      font-family: "Titan One", sans-serif;
+      font-size: 2rem;
+    }
+
+    .times {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      text-align: center;
+
+      .days,
+      .hours {
+        list-style-type: none;
+        padding: 0;
+
+        .listItem {
+          height: 30px;
+        }
+      }
+
+      .days {
+        text-align: left;
+        font-family: "Titan One", sans-serif;
+      }
+
+      .hours {
+        text-align: right;
+      }
+    }
+
+    .flex-item {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      max-width: 760px;
+    }
   }
 }
