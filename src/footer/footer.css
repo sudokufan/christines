@@ -5,10 +5,10 @@
 }
 
 .footer {
-  background-color: #661a17;
+  background-color: #fbeb97;
   display: flex;
   justify-content: space-between;
-  color: #fbeb97;
+  color: #661a17;
   text-align: center;
   font-size: 1.5rem;
   flex-direction: row;
