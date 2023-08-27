@@ -1,4 +1,4 @@
-import "./TextSlice.css";
+import "./textSlice.css";
 
 function TextSlice(props) {
   return (
