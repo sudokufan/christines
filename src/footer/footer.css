@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+}
+
+.footer {
+  background-color: #2b653c;
+  display: flex;
+  justify-content: center;
+  color: #fbeb97;
+  text-align: center;
+}
+
+.text {
+  padding: 60px 0px 60px 0px;
+  width: 40%;
+  font-size: 1.5rem;
+}
