@@ -1,3 +1,4 @@
+import React from "react";
 import "./TextSlice.scss";
 
 function TextSlice(props) {
