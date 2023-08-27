@@ -1,4 +1,3 @@
-import React from "react";
 import "./TextSlice.css";
 
 function TextSlice(props) {
