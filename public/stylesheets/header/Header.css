@@ -1,20 +1,17 @@
-* {
-  box-sizing: border-box;
-}
+/* Error: expected ":".
+ *    ,
+ * 11 |   .address {
+ *    |            ^
+ *    '
+ *   src/header/Header.css 11:12  root stylesheet */
 
-.header {
-  background-color: #fbeb97;
-  display: flex;
-  justify-content: center;
-  color: #000000;
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: 'Error: expected ":".\a    \2577 \a 11 \2502    .address {\a    \2502             ^\a    \2575 \a   src/header/Header.css 11:12  root stylesheet';
 }
-
-.headerShopName {
-  padding: 30px;
-}
-.headerShopName :hover {
-  color: #2b653c;
-  transition: color 0.3s ease-out;
-}
-
-/*# sourceMappingURL=Header.css.map */

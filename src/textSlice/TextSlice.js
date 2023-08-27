@@ -1,5 +1,5 @@
 import React from "react";
-import "./TextSlice.scss";
+import "./TextSlice.css";
 
 function TextSlice(props) {
   return (

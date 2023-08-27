@@ -7,18 +7,20 @@
   display: inline-grid;
   grid-template-columns: 1fr 1fr 1fr;
   color: #000000;
-}
 
-.shopName {
-  grid-column-start: 2;
-  padding: 30px;
-
-  :hover {
+  .address {
+    grid-column-start: 3;
+    font-size: 1rem;
+  }
+  
+  .shopName {
+    grid-column-start: 2;
+    padding: 30px;
+  }
+  
+  .shopName:hover {
     color: #2b653c;
     transition: color 0.3s ease-out;
   }
-}
 
-.address {
-  grid-column-start: 3;
 }
