@@ -13,21 +13,17 @@
 
   .shopName {
     padding: 3rem;
-  }
-
-  .shopTitle {
-    font-family: "Titan One", sans-serif;
-    font-size: 4rem;
-    margin: 0;
-  }
-
-  .shopSubtitle {
-    margin: 0;
-    font-size: 2rem;
-  }
-
-  .shopName:hover {
     color: #2b653c;
-    transition: color 0.3s ease-out;
+
+    .shopTitle {
+      font-family: "Titan One", sans-serif;
+      font-size: 4rem;
+      margin: 0;
+    }
+
+    .shopSubtitle {
+      margin: 0;
+      font-size: 2rem;
+    }
   }
 }
