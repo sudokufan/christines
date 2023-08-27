@@ -1,26 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Titan+One");
+
 * {
   box-sizing: border-box;
 }
 
 .header {
   background-color: #fbeb97;
-  display: inline-grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  display: flex;
   color: #000000;
+  justify-content: center;
 
-  .address {
-    grid-column-start: 3;
-    font-size: 1rem;
-  }
-  
   .shopName {
-    grid-column-start: 2;
     padding: 30px;
+    font-family: "Titan One", sans-serif;
+    font-size: 3rem;
   }
-  
+
   .shopName:hover {
     color: #2b653c;
     transition: color 0.3s ease-out;
   }
-
 }
