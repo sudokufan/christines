@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+}
+
+.header {
+  background-color: #fbeb97;
+  display: flex;
+  justify-content: center;
+  color: #000000;
+}
+
+.headerShopName {
+  padding: 30px;
+
+  :hover {
+    color: #2b653c;
+    transition: color 0.3s ease-out;
+  }
+}

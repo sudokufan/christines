@@ -1,9 +1,0 @@
-* {
-  box-sizing: border-box;
-}
-
-.header {
-  display: flex;
-  text-align: center;
-  margin: 30px;
-}

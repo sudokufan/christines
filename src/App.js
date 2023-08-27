@@ -1,21 +1,12 @@
-import "./App.css";
+import "./App.scss";
+import Header from "./header/Header";
+import TextSlice from "./textSlice/TextSlice";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <TextSlice text="We are passionate about serving you our locally sourced, organic, sustainable, vegan, cruelty-free, and ethical produce" />
     </div>
   );
 }
